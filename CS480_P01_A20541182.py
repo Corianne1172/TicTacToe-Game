@@ -4,7 +4,7 @@ import sys #import for CLI arguments
 #MINIMAX-SEARCH function with nodes argument that will count the number of search trees generated when it's the computer's turn
 def MINIMAX_SEARCH(game, state, nodes):
     nodes['count'] = 1  # root node
-    player = game.TOMOVE(state)
+    player = game.TO_MOVE(state)
     value, move = MAX_VALUE(game, state, player, nodes)
     return move
 
