@@ -45,7 +45,7 @@ Where:
 
 ### Examples
 
-**Local example path (your setup):**
+**Local example path (my setup):**
 
 ```bash
 cd ~/Documents/GitHub/TicTacToe-Game
