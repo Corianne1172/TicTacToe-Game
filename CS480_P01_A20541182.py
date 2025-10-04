@@ -135,9 +135,9 @@ if ALGO not in ('1', '2') or FIRST not in ('X', 'O') or MODE not in ('1', '2'):
 algo_text = "MiniMax" if ALGO == '1' else "MiniMax with alpha-beta pruning"
 mode_text = "human versus computer" if MODE == '1' else "computer versus computer"
 
-print("Konan, Otioh Marie-Lynn Corianne Delon A20541182 solution:\n")
-print(f"Algorithm: {algo_text}\n")
-print(f"First: {FIRST}\n")
+print("Konan, Otioh Marie-Lynn Corianne Delon, A20541182 solution:")
+print(f"Algorithm: {algo_text}")
+print(f"First: {FIRST}")
 print(f"Mode: {mode_text}\n")
 
 #Initialize the game
@@ -186,5 +186,3 @@ elif game.UTILITY(game.state, 'O') == 1:
     print("O WON")
 else:
     print("TIE")
-    
-    #checking
